@@ -2,6 +2,8 @@
   "name": "tech-radar",
   "version": "0.0.0",
   "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.4.1",
     "grunt-karma": "~0.4.5"
   },
   "devDependencies": {
