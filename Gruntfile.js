@@ -357,3 +357,5 @@ module.exports = function (grunt) {
     'build'
   ]);
 };
+
+grunt.registerTask('heroku:production', 'clean less mincss uglify');
