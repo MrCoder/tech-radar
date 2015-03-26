@@ -54,51 +54,34 @@ angular.module('techRadarApp').factory('radarService', ['$log', '$timeout', 'loc
         {"label": "Tools", "technologies": [
           {"label": "Infrastructure as code"},
           {"label": "Embedded servlet containers"},
-          {"label": "Silverback"},
-          {"label": "AppCode"},
           {"label": "Jasmine paired with Node.js"},
-          {"label": "Immutable servers"},
-          {"label": "Graphite"}
+          {"label": "Immutable servers"}
         ]},
         {"label": "Techniques", "technologies": [
           {"label": "Health check pages"},
           {"label": "Windows infrastructure automation"},
-          {"label": "Guerrilla user testing"},
           {"label": "Work-in-Progress limits"},
           {"label": "Automated deployment pipeline"},
           {"label": "In process acceptance testing"},
-          {"label": "Advanced analytics"},
-          {"label": "Aggregates as documents"}
+          {"label": "Advanced analytics"}
         ]},
         {"label": "Platforms", "technologies": [
-          {"label": "ATOM"},
-          {"label": "Care about hardware"},
-          {"label": "Mobile payment systems"},
-          {"label": "Neo4J"}
+          {"label": "Care about hardware"}
         ]},
         {"label": "Languages & Frameworks", "technologies": [
           {"label": "Clojure"},
           {"label": "Scala"},
-          {"label": "Care about languages"},
           {"label": "SASS, SCSS, LESS, and Stylus"}
         ]}
       ]},
       {"label": "Trial", "categories": [
         {"label": "Tools", "technologies": [
-          {"label": "Vagrant"},
           {"label": "Gradle"},
-          {"label": "PSake"},
-          {"label": "Frank"},
           {"label": "JavaScript micro frameworks"},
           {"label": "Jade"},
-          {"label": "NuGet"},
-          {"label": "Highcharts"},
           {"label": "D3"},
-          {"label": "Apache Pig"},
           {"label": "SaaS performance testing tools"},
-          {"label": "Dependency Structure Matrices"},
-          {"label": "Locust"},
-          {"label": "Rake for Java & .Net"}
+          {"label": "Dependency Structure Matrices"}
         ]},
         {"label": "Techniques", "technologies": [
           {"label": "Polyglot Persistence"},
@@ -106,15 +89,9 @@ angular.module('techRadarApp').factory('radarService', ['$log', '$timeout', 'loc
           {"label": "Out-of-container functional testing"},
           {"label": "Micro-services"},
           {"label": "Infrastructure automation of development workstations"},
-          {"label": "Agile analytics"},
           {"label": "Logs as data"},
           {"label": "Responsive web design"},
-          {"label": "Mobile first"},
-          {"label": "Declarative provisioning"},
-          {"label": "Remote usability testing"},
-          {"label": "Semantic monitoring"},
-          {"label": "Edge Side Includes for page composition"},
-          {"label": "Configuration in DNS"}
+          {"label": "Declarative provisioning"}
         ]},
         {"label": "Platforms", "technologies": [
           {"label": "Node.js"},
@@ -132,21 +109,12 @@ angular.module('techRadarApp').factory('radarService', ['$log', '$timeout', 'loc
           {"label": "Domain-Specific Languages"},
           {"label": "Scratch, Alice, and Kodu"},
           {"label": "Twitter Bootstrap"},
-          {"label": "Sinatra"},
-          {"label": "AngularJS and Knockout"},
-          {"label": "Require.js"},
-          {"label": "Dropwizard"},
-          {"label": "Jekyll"},
-          {"label": "HTML5 for offline applications"}
+          {"label": "AngularJS"},
+          {"label": "Require.js"}
         ]}
       ]},
       {"label": "Assess", "categories": [
         {"label": "Tools", "technologies": [
-          {"label": "Logic-free markup"},
-          {"label": "Crazy Egg"},
-          {"label": "Zipkin"},
-          {"label": "Zucchini"},
-          {"label": "GemJars"},
           {"label": "Light Table"},
           {"label": "Riemann"}
         ]},
@@ -154,28 +122,19 @@ angular.module('techRadarApp').factory('radarService', ['$log', '$timeout', 'loc
           {"label": "Deployment and scripting test tools"}
         ]},
         {"label": "Platforms", "technologies": [
-          {"label": "Calatrava"},
-          {"label": "Datomic"},
-          {"label": "Vert.x"},
           {"label": "Azure"},
           {"label": "Open source IaaS"},
           {"label": "BigQuery"},
           {"label": "Windows Phone"}
         ]},
         {"label": "Languages & Frameworks", "technologies": [
-          {"label": "F#"},
-          {"label": "ClojureScript"},
-          {"label": "Lua"},
-          {"label": "RubyMotion"},
-          {"label": "Gremlin"},
           {"label": "JavaScript as a platform"}
         ]}
       ]},
       {"label": "Hold", "categories": [
         {"label": "Tools", "technologies": [
           {"label": "Enterprise service bus"},
-          {"label": "VCS with implicit workflow"},
-          {"label": "Maven"}
+          {"label": "VCS with implicit workflow"}
         ]},
         {"label": "Techniques", "technologies": [
           {"label": "Database based integration"},
@@ -186,14 +145,11 @@ angular.module('techRadarApp').factory('radarService', ['$log', '$timeout', 'loc
         {"label": "Platforms", "technologies": [
           {"label": "WS-*"},
           {"label": "Java portal servers"},
-          {"label": "Zero-code packages"},
-          {"label": "Singleton infrastructure"},
           {"label": "Meteor.js"}
         ]},
         {"label": "Languages & Frameworks", "technologies": [
           {"label": "Backbone.js"},
           {"label": "Logic in stored procedures"},
-          {"label": "Google Dart"},
           {"label": "Component-based frameworks"}
         ]}
       ]}
