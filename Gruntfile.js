@@ -322,8 +322,8 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-      'clean:server',
-      'concurrent:server',
+      //'clean:server',
+      //'concurrent:server',
       'connect:livereload',
       'open',
       'watch'
@@ -357,6 +357,6 @@ module.exports = function (grunt) {
     'build'
   ]);
 
-  grunt.registerTask('heroku:production', 'clean less mincss uglify');
+  grunt.registerTask('heroku:production', 'server');
 };
 
